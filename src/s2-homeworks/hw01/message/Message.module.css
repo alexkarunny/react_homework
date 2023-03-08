@@ -1,31 +1,77 @@
 .message {
+    display: grid;
+    grid-template-columns: 527px 48px;
+    grid-template-rows: auto 17px;
+    grid-template-areas:
+                "it it"
+                ". t";
+    justify-items: center;
+    justify-content: end;
 
 }
 
 .imageAndText {
+    grid-area: it;
+    width: 575px;
+    display: grid;
+    grid-template-columns: 527px 48px;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+                "text image";
+    align-items: end;
+    position: relative;
 
 }
 
 .imageAndText img {
-
+    width: 48px;
+    height: 48px;
+    grid-area: image;
 }
 
 .text {
-
+    grid-area:text;
+    width: 515px;
+    height: auto;
+    min-height: 60px;
+    border-radius: 10px 10px 0px 10px;
+    background-color: #0066CC;
+    position: relative;
 }
 
 .text:after {
-
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    bottom: 0px;
+    right: -12px;
+    background: radial-gradient(circle at top right, rgba(0, 0, 0, 0) 12px, #0066CC 0);
 }
 
 .name {
-
+    font: normal 600 18px/22px 'Montserrat', sans-serif;
+    color: #fff;
+    position: absolute;
+    top: 7px;
+    right: 14px;
 }
 
 .messageText {
-
+    width: 489px;
+    overflow: hidden;
+    font: normal 400 16px/20px 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    position: absolute;
+    top: 32px;
+    left: 13px;
 }
 
 .time {
-
+    grid-area: t;
+    margin-top: 5px;
+    width: 26px;
+    height: 12px;
+    font: normal 600 10px/12px sans-serif;
 }

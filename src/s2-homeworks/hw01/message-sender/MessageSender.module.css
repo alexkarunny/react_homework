@@ -1,18 +1,45 @@
 .sendForm {
-
+    display: grid;
+    margin: 15px 0 30px ;
+    grid-template-columns: 976px 120px;
+    grid-template-rows: 40px;
+    gap: 44px;
+    grid-template-areas:
+            "textarea button";
 }
 
 .textarea {
-
+    grid-area: textarea;
+    display: block;
+    resize: none;
+    overflow: hidden;
+    padding: 12px 24px 11px;
+    outline: none;
+    width: 976px;
+    height: 40px !important;
+    border-radius: 20px;
+    border: 1px solid #F5F7FB;
+    background-color: #F5F7FB;
+    font: normal 400 14px/17px sans-serif;
 }
 
 .button {
-
+    grid-area: button;
+    display: block;
+    width: 118px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #0066CC;
+    text-align: center;
+    background-color: #0066CC;
+    font: normal 600 16px/20px sans-serif;
+    color: #FFFFFF;
 }
 
 .button:hover {
-
+    background-color: #FFFFFF;
+    color: #0066CC;
 }
 .button:active {
-
+    background-color: #253442;
 }
