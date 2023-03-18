@@ -10,10 +10,11 @@
     border-top: 1px solid #D9D9D9;
     border-bottom: 1px solid #D9D9D9;
     padding: 24px 70px 15px;
+    margin-bottom: 20px;
     width: 100%;
 }
 
 .hwTitle {
-    padding: 40px 70px 0px;
+    padding: 40px 70px 0;
     font: 600 22px/27px 'Montserrat', sans-serif ;
 }
