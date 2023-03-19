@@ -3,6 +3,7 @@
 
 .inputAndButtonContainer {
     display: grid;
+    height: 50px;
     margin-bottom: 10px;
     grid-template-columns: 372px 78px;
     gap: 12px;

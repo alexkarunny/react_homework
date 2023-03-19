@@ -1,36 +1,79 @@
 .button {
+    border-radius: 3px;
+    outline: none;
+    width: 132px;
+    height: 30px;
 }
 
 .disabled {
+    border: 1px solid #004D99;
+    background: #004D99;
+    opacity: 0.5;
+    color: #002E5C;
+    font: normal 600 14px/20px 'Montserrat', sans-serif;
 }
 
 .secondary {
+    width: 176px;
+    outline: none;
+    border: 1px solid #0066CC;
+    background: #fff;
+    border-radius: 3px;
+    color: #0066CC;
+    font: normal 600 14px/20px 'Montserrat', sans-serif;
 }
 
 .default {
+    outline: none;
+    border: 1px solid #0066CC;
+    background: #0066CC;
+    border-radius: 3px;
+    color: #fff;
+    font: normal 600 14px/20px 'Montserrat', sans-serif;
 }
 
 .red {
+    outline: none;
+    border: 1px solid #CC1439;
+    background: #CC1439;
+    border-radius: 3px;
+    color: #fff;
+    font: normal 600 14px/20px 'Montserrat', sans-serif;
 }
 
 .default:hover {
+    background: #0080FF;
 }
 
 .red:hover {
+    background: #FF1A47;
 }
 
 .secondary:hover {
+    background: #E5F0FA;
 }
 
 
 .default:active {
+    background: #0059B2;
+;
 }
 
 .secondary:active {
+    background: #C9E5FF;
+
 }
 
 .red:active {
+    background: #B21232;
 }
 
 .button:disabled {
+    border-radius: 3px;
+    border: 1px solid #004D99;
+    background: #004D99;
+    opacity: 0.5;
+    color: #002E5C;
+    font: normal 600 14px/20px 'Montserrat', sans-serif;
+
 }
