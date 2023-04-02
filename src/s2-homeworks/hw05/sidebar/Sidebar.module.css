@@ -11,12 +11,22 @@
 }
 
 .nav a {
+    color: #000;
+    font: 600 22px/27px 'Montserrat', sans-serif;
+    text-decoration: none;
 }
 
 .nav a:hover {
+    color: #58ACFF;
+}
+
+.nav a:active {
+    color: #3D6B99;
 }
 
 .nav a.active {
+    color: #0059B2;
+    text-decoration: underline;
 }
 .close {
 }

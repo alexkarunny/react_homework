@@ -1,8 +1,17 @@
 .burgerMenuIcon {
+    align-self: center;
 }
 
 .header {
+    width: 1280px;
+    height: 60px;
+    padding: 0 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .header h1 {
+    justify-self: end;
+    align-self: center;
+    font: 600 24px/29px 'Montserrat', sans-serif;
 }
