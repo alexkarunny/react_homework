@@ -1,7 +1,16 @@
 .sidebar {
+    width: 317px;
+    height: 100%;
+    position: fixed;
+    background-color: #fff;
+    z-index: 1;
+    left: -317px;
+
 }
 
 .sidebar.open {
+    left: 0;
+    transition: left 1s;
 }
 
 .background {
