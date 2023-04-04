@@ -3,9 +3,10 @@
 }
 
 .header {
-    width: 1280px;
+    /*width: 1280px;*/
     height: 60px;
     padding: 0 70px;
+    background-color: #fff;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
