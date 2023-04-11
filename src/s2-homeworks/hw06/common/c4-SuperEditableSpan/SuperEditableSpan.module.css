@@ -1,11 +1,27 @@
 .spanBlock {
+    display: grid;
+    margin-bottom: 20px;
+    grid-template-columns: 24px 1fr;
+    grid-template-rows: 30px;
+    gap: 20px;
+    align-content: center;
 }
 
 .span {
+    font: normal 16px/20px 'Montserrat', sans-serif;
+    color: #0080FF;
+    align-self: center;
 }
 
 .input {
+    outline: none;
+    height: 30px;
+    margin-bottom: 20px;
+    border: 1px solid #D1D1D1;
+    padding: 0 24px;
+    font: normal 16px/20px 'Montserrat', sans-serif
 }
 
 .pen {
+    align-self: center;
 }
