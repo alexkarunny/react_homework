@@ -1,2 +1,7 @@
 .container {
+    display: grid;
+    position: relative;
+    grid-template-columns: 200px 200px;
 }
+
+

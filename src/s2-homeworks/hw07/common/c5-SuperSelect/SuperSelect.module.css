@@ -1,9 +1,22 @@
 .select {
+    width: 180px;
+    font: 400 16px/17px 'Montserrat', sans-serif;
+    outline: none;
+    appearance: none;
+    padding: 3px 30px 3px 10px;
+    background-image: url('./chevron-down.svg');
+    background-repeat: no-repeat;
+    background-position: right 3px top 50%;
+    cursor: pointer;
 }
 
 .select:focus {
+    font: 400 16px/17px 'Montserrat', sans-serif;
+    outline: none;
+    background-image: url('./chevron-up.svg');
+    background-position: right 9px top 50%;
 }
 
-
-.option:hover {
+.option:checked {
+    background-color: rgba(0, 128, 255, 0.24);
 }
