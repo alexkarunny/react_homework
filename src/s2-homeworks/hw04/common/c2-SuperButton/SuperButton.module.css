@@ -1,17 +1,20 @@
 .button {
     border-radius: 3px;
     outline: none;
-    width: 132px;
-    height: 30px;
+    padding: 4px 20px;
+    /*width: 132px;*/
+    /*height: 30px;*/
+    cursor: pointer;
 }
 
-.disabled {
+/*.disabled {
+    cursor: default;
     border: 1px solid #004D99;
     background: #004D99;
     opacity: 0.5;
-    color: #002E5C;
+    color: #fff;
     font: normal 600 14px/20px 'Montserrat', sans-serif;
-}
+}*/
 
 .secondary {
     /*width: 176px;*/
@@ -69,11 +72,11 @@
 }
 
 .button:disabled {
+    cursor: default;
     border-radius: 3px;
     border: 1px solid #004D99;
     background: #004D99;
     opacity: 0.5;
-    color: #002E5C;
+    color: #fff;
     font: normal 600 14px/20px 'Montserrat', sans-serif;
-
 }
