@@ -1,22 +1,35 @@
 .buttonsContainer {
+    display: grid;
+    grid-template-columns: max-content max-content max-content max-content;
+    gap: 15px;
 }
 
 .responseContainer {
+    height: 400px;
+    display: flex;
+    align-items: center;
 }
 
 .imageContainer {
+    padding-left: 90px;
 }
 
 .image {
 }
 
-.textContainer{
+.textContainer {
+    padding-left: 80px;
 }
 
 .code {
+    font: 600 30px/100% 'Montserrat', sans-serif;
+    margin-bottom: 12px;
 }
 
 .text {
+    font: 500 16px/100% 'Montserrat', sans-serif;
 }
+
 .info {
+    font: 500 16px/100% 'Montserrat', sans-serif;
 }
