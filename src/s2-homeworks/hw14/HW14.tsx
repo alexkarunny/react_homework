@@ -34,8 +34,9 @@ const HW14 = () => {
         setLoading(true)
         getTechs(value)
             .then((res) => {
+                res && setTechs(res.data.techs)
                 // делает студент
-
+                setLoading(false)
                 // сохранить пришедшие данные
 
                 //
@@ -48,7 +49,7 @@ const HW14 = () => {
 
         // добавить/заменить значение в квери урла
         // setSearchParams(
-
+        setSearchParams(value)
         //
     }
 
