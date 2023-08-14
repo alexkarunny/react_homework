@@ -54,7 +54,11 @@ const HW15 = () => {
                 // делает студент
 
                 // сохранить пришедшие данные
-
+                if(res) {
+                    setTechs(res.data.techs)
+                    setTotalCount(res.data.totalCount)
+                    setLoading(false)
+                }
                 //
             })
     }
@@ -63,11 +67,16 @@ const HW15 = () => {
         // делает студент
 
         // setPage(
+        setPage(newPage)
+
         // setCount(
+        setCount(newCount)
 
         // sendQuery(
-        // setSearchParams(
+        sendQuery({page: newPage, count: newCount })
 
+        // setSearchParams(
+        setSearchParams()
         //
     }
 
@@ -75,9 +84,13 @@ const HW15 = () => {
         // делает студент
 
         // setSort(
+        setSort(newSort)
+
         // setPage(1) // при сортировке сбрасывать на 1 страницу
+        setPage(1)
 
         // sendQuery(
+        //sendQuery({sort: '0a'})
         // setSearchParams(
 
         //
@@ -85,6 +98,7 @@ const HW15 = () => {
 
     useEffect(() => {
         const params = Object.fromEntries(searchParams)
+        debugger
         sendQuery({page: params.page, count: params.count})
         setPage(+params.page || 1)
         setCount(+params.count || 4)
