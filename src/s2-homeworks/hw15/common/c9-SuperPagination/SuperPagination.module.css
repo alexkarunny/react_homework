@@ -1,9 +1,12 @@
 .pagination {
     display: flex;
+    font: 400 14px/16px Roboto, sans-serif;
+    align-items: center;
+    gap: 10px;
 }
 
 .text1 {
-
+text-transform: capitalize;
 }
 
 .text2 {

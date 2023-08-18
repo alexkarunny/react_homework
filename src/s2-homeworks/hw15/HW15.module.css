@@ -1,3 +1,12 @@
+.hw15 {
+    position: relative;
+
+}
+
+.transparent{
+    opacity: .1;
+}
+
 .tech {
     width: 50vw;
 }
@@ -23,5 +32,7 @@
 }
 
 .loading {
-
+    position: absolute;
+    top: 50%;
+    left: 300px;
 }
